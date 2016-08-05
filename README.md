@@ -9,15 +9,15 @@ A user can enter a GitHub username into a form, submit it and see names, descrip
 
 
 ## Setup/Installation Requirements
-1. Begin the installation by cloning the repository from github.
+1 Begin the installation by cloning the repository from github.
 ```
 $ git clone https://github.com/meaghanjones/date_suggester.git
 ```
-2. Install NPM and Bower dependencies
+2 Install NPM and Bower dependencies
 ```
 $npm install; bower install
 ```
-3. Build the projevt and start the server in the browser
+3 Build the projevt and start the server in the browser
 ```
 $gulp serve
 ```
