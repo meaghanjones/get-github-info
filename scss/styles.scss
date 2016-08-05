@@ -6,14 +6,28 @@ $offwhite: #F2EFEA;
 
 h1{
   font-family: 'Pacifico', cursive;
-  color: $darkgrey;
   text-align: center;
 }
 
 body {
   font-family: 'Abel', sans-serif;
+  text-align: center;
 }
 
 #jumbotron-color {
-  color: $lightgrey;
+  color: $violet;
+}
+
+img {
+  width: 25%;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+#github-cat {
+  padding-top: 50px;
 }
