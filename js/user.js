@@ -15,11 +15,11 @@ User.prototype.getRepos = function(userName){
           $("#showUserInfo").append("<li>" + "Repo Name: " + response[index].name + " || " + "Description: none given" + "<br>" + "Clone Repo here: " + "<a href = '" + response[index].clone_url + "'" + ">" + response[index].clone_url + "</a>");
       }
 
-    };
-    console.log(response.length)
-    console.log(response)
+    }
+    console.log(response.length);
+    console.log(response);
   }).fail(function(error){
-    console.log(error.responseJSON.message);
+    $("#showUserInfo").text("User " + userName + " " + error.responseJSON.message + ". " + "Please try again." );
   });
 };
 
