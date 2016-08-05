@@ -7,5 +7,13 @@ $offwhite: #F2EFEA;
 h1{
   font-family: 'Pacifico', cursive;
   color: $darkgrey;
+  text-align: center;
 }
-// font-family: 'Abel', sans-serif;
+
+body {
+  font-family: 'Abel', sans-serif;
+}
+
+#jumbotron-color {
+  color: $lightgrey;
+}
