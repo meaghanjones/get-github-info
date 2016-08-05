@@ -19,7 +19,7 @@ User.prototype.getRepos = function(userName){
     console.log(response.length);
     console.log(response);
   }).fail(function(error){
-    $("#showUserInfo").text("User " + userName + " " + error.responseJSON.message + ". " + "Please try again." );
+    $("#showErrorMessage").text("User " + userName + " " + error.responseJSON.message + ". " + "Please try again." );
   });
 };
 
