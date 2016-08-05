@@ -4,6 +4,8 @@ $darkgrey: #2B303A;
 $platinum: #2B303A;
 $offwhite: #F2EFEA;
 
-font-family: 'Abel', sans-serif;
-
-font-family: 'Pacifico', cursive;
+h1{
+  font-family: 'Pacifico', cursive;
+  color: $darkgrey;
+}
+// font-family: 'Abel', sans-serif;
