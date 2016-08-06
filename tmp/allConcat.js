@@ -9,6 +9,7 @@ $(document).ready(function() {
     var userName = $('#userName').val();
     newUserObject = new User();
     newUserObject.getRepos(userName);
+    newUserObject.getUserInfo(userName);
     $('#github-cat').hide();
   });
 });

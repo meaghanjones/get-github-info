@@ -1,6 +1,6 @@
 # Git Get
 
-#### Git Get allows a user to search for a git hub user and then returns various information on the user and their public repositories. August 5th, 2016
+#### Git Get allows a user to search for a GitHub user and then returns various information on the user and their public repositories. August 5th, 2016
 
 #### By **Meaghan Jones**
 
@@ -9,15 +9,15 @@ A user can enter a GitHub username into a form, submit it and see names, descrip
 
 
 ## Setup/Installation Requirements
-1 Begin the installation by cloning the repository from github.
+Begin the installation by cloning the repository from github.
 ```
 $ git clone https://github.com/meaghanjones/date_suggester.git
 ```
-2 Install NPM and Bower dependencies
+Install NPM and Bower dependencies
 ```
 $npm install; bower install
 ```
-3 Build the projevt and start the server in the browser
+Build the project and start the server in the browser
 ```
 $gulp serve
 ```
@@ -34,6 +34,10 @@ In order to run this program you must obtain your own access token. In order to 
 * Node JS
 * Gulp
 * Bower
+* JavaScript
+* SASS
+* Bootstrap
+
 
 ### License
 

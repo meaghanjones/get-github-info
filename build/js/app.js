@@ -26,6 +26,15 @@ User.prototype.getRepos = function(userName){
   });
 };
 
+User.prototype.getUserInfo = function (userName) {
+  $.get('https://api.github.com/users/'+ userName +'?access_token=' + apiKey).then(function(response){
+    $("#showUserPhoto").html("<img src='" + response.avatar_url + "' alt='user avatar' class='img-avatar'>");
+  }).fail(function(error){
+    $("#showErrorMessage").text("User " + userName + " " + error.responseJSON.message + ". " + "Please try again." );
+  });
+};
+
+
 exports.userModule = User;
 
 },{"./../.env":1}],3:[function(require,module,exports){
@@ -40,6 +49,7 @@ $(document).ready(function() {
     var userName = $('#userName').val();
     newUserObject = new User();
     newUserObject.getRepos(userName);
+    newUserObject.getUserInfo(userName);
     $('#github-cat').hide();
   });
 });
